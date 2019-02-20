@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Etec League</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script>
+		$(function()
+		{
+			$('#openbtn').click(function()
+			{
+				$('#menu').attr('style', "height: 100%;");
+			});
+		});
+			
+		$(function()
+		{
+			$('#closebtn').click(function()
+			{
+				$('#menu').attr('style', "height: 0;");
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+	<div id="topNav">  
+		<span id="openbtn">&#9776;</span>
+		<img class="logo" src="el-logo1.png">
+
+			<div id="menu">
+				
+			    <a href="#">Sobre</a>
+			    <a href="#">Equipes</a>
+			    <a href="#">Jogos</a>
+				<a href="#">Contato</a>
+				<a href="javascript:void(0)" id="closebtn">&times;</a>
+	  		</div>
+
+		
+	<div id="content"> 
+		<div id="atual"> Atualizações </div>
+
+
+
+			<img id="Losers" src="Losers x Nac.jpg">
+			<img id="fotosPequenas1" src="Bispo.jpg"> 
+			<img id="fotosPequenas2" src="Portela.jpg"> 
+
+
+		</div>
+	</div> 
+		
+		
+	
+	
+</body>
+</html>
