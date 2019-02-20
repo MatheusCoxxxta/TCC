@@ -6,7 +6,23 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
 	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-
+	<script>
+		$(function()
+		{
+			$('#openbtn').click(function()
+			{
+				$('#menu').attr('style', "height: 100%;");
+			});
+		});
+			
+		$(function()
+		{
+			$('#closebtn').click(function()
+			{
+				$('#menu').attr('style', "height: 0;");
+			});
+		});
+	</script>
 
 </head>
 
@@ -26,34 +42,19 @@
 
 		
 	<div id="content"> 
-	<div id="atual"> Atualizações </div>
-	
-	
+		<div id="atual"> Atualizações </div>
 
-		<img id="Losers" src="Losers x Nac.jpg">
-		<img class="fotosPequenas1" src="Bispo.jpg"> 
-		<img class="fotosPequenas2" src="Portela.jpg"> 
-	
 
-	</div>
+
+			<img id="Losers" src="Losers x Nac.jpg">
+			<img id="fotosPequenas1" src="Bispo.jpg"> 
+			<img id="fotosPequenas2" src="Portela.jpg"> 
+
+
+		</div>
+	</div> 
 		
-		<script>
-		$(function()
-		{
-			$('#openbtn').click(function()
-			{
-				$('#menu').attr('style', "height: 100%;");
-			});
-		});
-			
-		$(function()
-		{
-			$('#closebtn').click(function()
-			{
-				$('#menu').attr('style', "height: 0;");
-			});
-		});
-	</script>
+		
 	
 	
 </body>
